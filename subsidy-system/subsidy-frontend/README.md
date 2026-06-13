@@ -1,70 +1,159 @@
-# Getting Started with Create React App
+# 🌱 AgriSure – Smart Horticulture Monitoring & Subsidy Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Project Overview
 
-## Available Scripts
+AgriSure is a web-based Smart Horticulture Monitoring and Subsidy Management System developed to assist farmers and government officers in managing horticulture activities efficiently.
 
-In the project directory, you can run:
+The system provides subsidy application management, crop monitoring, weather updates, disease alerts, pesticide recommendations, and inspection tracking through an easy-to-use digital platform.
 
-### `npm start`
+This project was developed as an MCA Major Project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+### 👨‍🌾 Farmer Module
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Farmer Registration & Login
+* Profile Management
+* Apply for Government Subsidies
+* Track Subsidy Status
+* Weather Monitoring
+* Crop Disease Alerts
+* Pesticide Recommendations
 
-### `npm run build`
+### 🏢 Officer Module
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Officer Login
+* View Farmer Applications
+* Verify Subsidy Requests
+* Inspection Management
+* Approve / Reject Applications
+* Generate Reports
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🌦 Smart Monitoring Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Real-Time Weather Information
+* Disease Alert Notifications
+* Crop Health Recommendations
+* Agricultural Guidance Support
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Technology Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frontend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* React.js
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Backend
 
-## Learn More
+* Spring Boot
+* Java
+* REST APIs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Database
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* MySQL
 
-### Code Splitting
+### External Services
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* OpenWeather API
 
-### Analyzing the Bundle Size
+### Tools & Platforms
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* Git
+* GitHub
+* VS Code
+* Postman
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🏗️ System Architecture
 
-### Advanced Configuration
+Frontend (React.js)
+↓
+REST API Layer
+↓
+Spring Boot Backend
+↓
+MySQL Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📂 Project Modules
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Farmer Management
+2. Subsidy Management
+3. Officer Dashboard
+4. Inspection Management
+5. Weather Monitoring
+6. Disease Detection Alerts
+7. Pesticide Recommendation System
+8. Report Generation
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🎯 Objectives
+
+* Digitize horticulture subsidy management.
+* Reduce manual paperwork.
+* Improve transparency in subsidy distribution.
+* Provide real-time agricultural information.
+* Support farmers with smart recommendations.
+* Enable efficient monitoring by government officers.
+
+---
+
+## 📊 Key Benefits
+
+* Faster subsidy processing
+* Improved farmer engagement
+* Better decision making
+* Centralized data management
+* Transparent approval workflow
+* Smart agricultural assistance
+
+---
+
+## 📸 Screenshots
+
+Add project screenshots here:
+
+* Login Page
+* Farmer Dashboard
+* Officer Dashboard
+* Subsidy Application Page
+* Weather Monitoring Module
+* Disease Alert Module
+
+---
+
+## 🔮 Future Enhancements
+
+* AI-Based Disease Prediction
+* Mobile Application Support
+* SMS Notifications
+* Geo-location Tracking
+* Crop Yield Prediction
+* Cloud Deployment
+
+---
+
+## 👩‍💻 Developer
+
+**P. Kamakshi Bhat**
+
+MCA Student | Full Stack Developer
+
+LinkedIn: https://www.linkedin.com/in/pkamakshibhat
+
+---
+
+## 📜 License
+
+This project is developed for academic and educational purposes.
