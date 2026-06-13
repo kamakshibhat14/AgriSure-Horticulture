@@ -1,0 +1,35 @@
+# Reports
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+
+# Excel
+*.xls
+*.xlsx
+
+# Videos
+*.mp4
+*.avi
+
+# Images not needed
+shots/
+
+# VS Code
+.vscode/
+
+# React
+node_modules/
+build/
+
+# Spring Boot
+target/
+
+# Python
+__pycache__/
+venv/
+
+# Logs
+*.log
+

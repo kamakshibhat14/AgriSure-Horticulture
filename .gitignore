@@ -1,0 +1,19 @@
+# React
+node_modules/
+build/
+
+# Spring Boot
+target/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Cache
+.cache/

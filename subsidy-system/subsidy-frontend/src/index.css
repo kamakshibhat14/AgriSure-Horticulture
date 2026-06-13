@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global smooth animation */
+* {
+  transition: all 0.25s ease-in-out;
+}
+
+/* Government Agriculture Theme Background */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+  min-height: 100vh;
+}
+
+/* Glass Card Effect */
+.glass-card {
+  backdrop-filter: blur(18px);
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 22px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+/* Agriculture Button Theme */
+.button-glow {
+  background: linear-gradient(135deg, #2e7d32, #1b5e20);
+  color: white;
+  box-shadow: 0 6px 15px rgba(46,125,50,0.3);
+}
+
+.button-glow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(46,125,50,0.4);
+}
+
+/* Input focus glow */
+.MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #2e7d32 !important;
+  box-shadow: 0 0 10px rgba(46,125,50,0.3);
+}
+
+/* Agriculture table styling */
+table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table thead {
+  background: #e8f5e9;
+}
+
+table tbody tr:hover {
+  background: #f1f8e9;
+}
+
+/* subtle agriculture background pattern */
+.bg-pattern {
+  background-image: url("https://www.transparenttextures.com/patterns/leaf.png");
+  opacity: 0.08;
+}
+
+/* floating crop animation */
+.crop-float {
+  animation: floatCrop 5s ease-in-out infinite;
+}
+
+@keyframes floatCrop {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+/* loading spinner style */
+.spinner {
+  border: 4px solid #e0e0e0;
+  border-top: 4px solid #2e7d32;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
